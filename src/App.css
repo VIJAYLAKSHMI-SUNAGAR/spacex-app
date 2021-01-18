@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  width: 100%;
+  margin: auto;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+h1 {
+  font-family: sans-serif;
+  width: 100%;
+  background-color: #f1f1f1;
+  margin: auto;
+  padding-left: 1rem;
+}
+
+.app-container {
+  text-align: auto;
+}
+
+#root {
+  display: grid
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+}
+.developer {
+  font-weight: bold;
+}
+.developer-div {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .column {
+    flex: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
