@@ -45,3 +45,12 @@ $ npm start
     Need to run multiple versions of Node? Use [nvm](https://github.com/creationix/nvm).
 
 2. **Install [Git](https://git-scm.com/downloads)**.
+
+### Screens
+
+1. **Initial View**
+![alt text](https://github.com/VIJAYLAKSHMI-SUNAGAR/spacex-app/blob/master/src/screens/Full_view.png?raw=true)
+
+
+1. **Filtered View**
+![alt text](https://github.com/VIJAYLAKSHMI-SUNAGAR/spacex-app/blob/master/src/screens/filter_applied.png?raw=true)
